@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+     
+  /* Form Container */
+  .container {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Title */
+  .title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Input Field */
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .input-field:focus {
+    border-color: #00796b;
+    box-shadow: 0 0 5px rgba(0, 121, 107, 0.3);
+  }
+  
+  /* Continue Button */
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #008f65;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #00796b;
+  }
+  
+  /* Sign-Up Link */
+  .register-link {
+    margin: 15px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .link {
+    color: #008f65;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Divider */
+  .divider {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #ccc;
+    margin: 0 10px;
+  }
+  
+  .divider-text {
+    color: #888;
+    font-size: 14px;
+  }
+  
+  /* Social Login Buttons */
+  .social-login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+  }
+  
+  .social-btn {
+    width: 100%;
+    padding: 12px;
+    padding-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s;
+  }
+  
+  .social-btn:hover {
+    background: #f8f8f8;
+    border-color: #bbb;
+  }
+  
+  .icon {
+    font-size: 18px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 500px) {
+    .container {
+      width: 90%;
+    }
+  }
+  
